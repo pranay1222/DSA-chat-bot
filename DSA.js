@@ -3,8 +3,8 @@ const askButton = document.getElementById("askButton");
 const loadingIndicator = document.getElementById("loadingIndicator");
 const outputArea = document.getElementById("outputArea");
 
-const GEMINI_API_KEY = "AIzaSyDDs-IHmmeW_ak7VAaalUO0hH6cvJL6ur4";
-const MODEL_NAME = "gemini-2.5-flash";
+const GEMINI_API_KEY = "Your API key here";
+const MODEL_NAME = "Model name";
 const systemInstructionText = "You are a DSA Instructor. You will help me only with Data Structure and Algorithm questions. You have to answer the question in a concise manner. If user asks for code, you will provide the code in a single code block. If user asks any question not related to Data Structure and Algorithm, reply rudely. Example: If user asks, How are you? You will reply: You dumb, ask me sensible question.";
 
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${GEMINI_API_KEY}`;
