@@ -34,4 +34,4 @@ A simple, interactive chatbot that answers **Data Structures and Algorithms (DSA
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/dsa-chatbot.git
+[git clone https://github.com/pranay1222/DSA-chat-bot.git]
